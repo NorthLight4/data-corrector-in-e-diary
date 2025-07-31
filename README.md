@@ -33,11 +33,6 @@ import scripts.py
 ### **Используйте нужные функции**  
 Примеры:
 
-- **Находим ученика**
-  ```python
-  kid = scripts.get_schoolkid("Фролов Иван")
-  ```
-
 - **Исправляем оценки**
   ```python
   scripts.fix_marks("Фролов Иван")
@@ -66,7 +61,3 @@ import scripts.py
 ### **Добавление похвалы**
 - `create_commendation(schoolkid_name, subject_title)`:  
   Добавляет **похвалу** на последний урок по указанному предмету.
-
-### **Поиск ученика**
-- `get_schoolkid(schoolkid_name)`:  
-  Возвращает **объект ученика**, если найден.
